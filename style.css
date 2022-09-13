@@ -13,20 +13,25 @@ body {
 .name {
   color: rgb(3, 190, 173);
 }
-#know-me-btn {
-  color: #03BEAD;
-  background: rgb(255, 255, 255);
+.first-btn {
   border: 3px solid #03BEAD;
-  padding: 5px 15px 5px;
+  font-size: 20px;
   font-weight: 400;
   margin-top: 20px;
-  font-size: 20px;
-  box-shadow: inset 0 0 0 0 #03BEAD;
-  transition: ease 0.5s;
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(45deg, #03BEAD 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #03BEAD 50%, transparent 50%);
+  background-position: 100%;
+  color: #03BEAD;
+  background-size: 400%;
+  height: 40px;
+  width: 140px;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
 }
-#know-me-btn:hover{
-  color: white;
-  box-shadow: inset 132px 0 0 0#03BEAD;
+.first-btn:hover {
+  background-position: 0;
+  color: #ffffff;
 }
 .first-heading {
   font-size: 56px;
@@ -94,11 +99,12 @@ body {
   display: flex;
 }
 .prjct-btn {
-  color: rgb(0, 0, 0);
-  background-color: aliceblue;
+  color: rgb(21, 21, 21);
+  background-color: inherit;
   border: 2px solid #03bead;
   padding: 5px 10px;
   margin: 1rem 2rem 0 0;
+  font-weight: 700;
 }
 .container {
   margin: 10rem 0;
