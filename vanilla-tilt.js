@@ -4,7 +4,7 @@ var VanillaTilt = (function () {
     constructor(e, i = {}) {
       if (!(e instanceof Node))
         throw "Can't initialize VanillaTilt because " + e + " is not a Node.";
-      (this.width = null),
+        (this.width = null),
         (this.height = null),
         (this.clientWidth = null),
         (this.clientHeight = null),
