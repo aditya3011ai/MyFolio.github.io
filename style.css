@@ -68,10 +68,13 @@ body {
   width: 300px;
 }
 
-.container-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 20px;
+.container-flex {
+  display: flex;
+  margin: 0 7%;
+}
+.flex-item-para {
+  text-align: left;
+  margin-left: 13%;
 }
 .resume-btn {
   height: 30px;
@@ -91,15 +94,10 @@ body {
   cursor: pointer;
   border-radius: 4px;
 }
-
-.grid-item-div {
-  text-align: left;
-}
 .projects {
   padding: 0 10%;
   text-align: center;
 }
-
 .project-main-head {
   margin-bottom: 5%;
   font-size: 40px;
@@ -112,7 +110,6 @@ body {
 .project {
   display: flex;
   margin-top: 5rem;
-  
 }
 .prjct-btn {
   color: #03bead;
@@ -124,7 +121,7 @@ body {
   font-weight: 400;
 }
 .project-para{
-  text-align: left;
+  text-align: justify;
 }
 
 .prjct-dis {
@@ -321,13 +318,13 @@ body {
   font-size: 13px;
 }
 .container-grid{
-  display: flex;
+  
   margin-left: 7%;
 }
 .resume-btn{
   margin: 1rem 0 12px 0 ;
 }
-.grid-item-div{
+.grid-item-para{
   margin-left:1rem ;
 }
 .project-main-head{
@@ -385,7 +382,7 @@ body {
   line-height: 1.5;
   margin: 0
 }
-.grid-item-div{
+.grid-item-para{
   margin: 0 1rem 0 0 ;
 }
 .resume-btn{
