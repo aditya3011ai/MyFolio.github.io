@@ -166,14 +166,14 @@ body {
 .footer {
   background-color: #333;
   text-align: center;
-  min-height: 30vh;
+  min-height: 25vh;
   padding: auto;
 }
 .ftr-heading {
   color: white;
   font-weight: 700;
   margin: 0;
-  padding: 100px 0 20px 0;
+  padding: 10% 0 20px 0;
   font-size: 25px;
 }
 .icons {
@@ -216,7 +216,7 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
-.project{
+.projects{
   overflow-x: hidden;
 }
 }
@@ -241,6 +241,9 @@ body {
   font-family: "Montserrat", sans-serif;
   pointer-events: none;
 }
+.about{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
 .about-img{
   width: 230px;
   height: 230px;
@@ -249,6 +252,9 @@ body {
   pointer-events: none;
 }
 .about-para{
+  margin-top: 10%;
+}
+.project-main-head{
   margin-top: 10%;
 }
 .projects{
@@ -359,9 +365,14 @@ body {
 }
 }
 @media screen and (max-width:564px) {
-.first-heading{
+.fst-sec{
+  display: block;
+}
+
+  .first-heading{
   font-size: 25px;
-  margin: 0;
+  margin:0;
+  padding-top: 30%;
 }
 .first-btn{
   font-size: 13px;
@@ -380,16 +391,18 @@ body {
 .about-para{
   font-size: 9px;
   line-height: 1.5;
-  margin: 0
+  margin:0 0 5px 0;
+
 }
 .grid-item-para{
   margin: 0 1rem 0 0 ;
 }
 .resume-btn{
- height: 25px;
- width: 80px;
- font-size: 10px;
+ height: 20px;
+ width: 70px;
+ font-size: 8px;
  margin: 3% 0 12px 0 ;
+ border: 1px solid white;
 }
 .project-main-head{
   font-size: 25px;
