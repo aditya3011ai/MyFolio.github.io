@@ -1,6 +1,6 @@
 # MyFolio.github.io
 This is my portfolio website to list my projects that i have made.
-https://aditya3011ai.github.io/MyFolio.github.io/
+https://my-personal-portfoliowebsite.netlify.app/
 Still some of th things are left to do:-
 1 Making it responsive.
 2 adding meaning full paras.
