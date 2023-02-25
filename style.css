@@ -8,7 +8,10 @@ a{
   text-decoration: none;
   color:white;
 }
-
+img{
+  height: 100%;
+  width: 100%;
+}
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -70,6 +73,7 @@ body {
   font-weight: 400;
   margin-top: 10%;
   line-height: 1.5;
+  font-size: 1rem;
 }
 .about-img {
   height: 300px;
@@ -156,7 +160,7 @@ body {
   text-align: left;
 }
 .project-img-alt{
-   width: 600px;
+  width: 600px;
   height: 350px;
   margin-left: 3rem;
   display: none;
@@ -231,6 +235,7 @@ body {
   height: 250px;
   width: 250px;
 }
+
 .project-img{
   display: none;
 }
@@ -417,7 +422,7 @@ body {
   margin-right: 5px;
 }
 .about-para{
-  font-size: 9px;
+  font-size: 8px;
   line-height: 1.5;
   margin:0 0 5px 0;
 
